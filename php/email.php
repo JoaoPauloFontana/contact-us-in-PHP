@@ -72,7 +72,7 @@
         echo "Email enviado com sucesso!";
       }
     }else{
-		  echo "Email não pôde ser enviado";
+	    echo "Email não pôde ser enviado";
 	  }
       
     echo "<meta http-equiv='refresh' content='10;URL=../index.html'>";
