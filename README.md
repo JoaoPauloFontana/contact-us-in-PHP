@@ -14,3 +14,9 @@
  You can access the project files by clicking <a href="https://github.com/Shaiqna/contact-us-in-PHP/tree/master/php">here</a>.
  
  <h1>How to use</h1>
+ <ol>
+   <li>Cloning https://github.com/Shaiqna/contact-us-in-PHP.git and opening the project.</li>
+   <li>Open the project on your server.</li>
+   <li>Remember to put the email of the person who will receive it.</li>
+   <li><h4>Note: Have an apache server on your machine.</h4></li>
+ </ol>
