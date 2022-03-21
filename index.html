@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário de Contato</title>
+	<link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+	<section class="content">
+		<div class="contact">
+			<form action="./php/email.php" method="POST" class="card">
+				<input class="inputs" placeholder="Nome" type="text" name="nome" required maxlength="25" minlength="2">
+				<span></span>
+				
+				<input class="inputs" placeholder="Email" type="email" name="email" required maxlength="50">
+				<span></span>
+				
+				<input class="inputs" placeholder="Assunto" type="assunto" name="assunto" required maxlength="50">
+				<span></span>
+				
+				<input class="inputs" placeholder="Mensagem" id="Mensagem" class="mensagem" name="mensagem" required maxlength="100">
+				<span></span>
+
+				<button class="button">Enviar</button>
+			</form>
+		</div>
+	</section>
+</body>
+</html>
